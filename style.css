@@ -1,0 +1,43 @@
+@import url("tstyle.css");
+
+.lrg2>h1{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+td{
+    padding: 5px;
+    border: 1px solid rgb(61, 80, 101);
+}
+td:hover {
+    background-color: #cad4e0;
+    color: rgba(8,47,73,1);
+}
+td.hd, td.hd0{
+    background-color: rgba(8,47,73,1);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td.ur{
+    background-color: rgba(203,213,225,1);
+    color: rgba(8,47,73,1);
+    font-weight: bold;
+}
+td.ur:hover{
+    background-color: rgb(143, 162, 184);
+}
+td.nul{
+    background-color: rgb(91, 140, 168);
+}
+.logo a{
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    max-width: 60px;
+}
+.logo a h1{
+    margin-left: 15px;
+}
